@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+site:
+  title: Akhil Bangaru's Writeups
+  structure:
+    - type: space
+      key: space-writeups
+      title: Writeups
+      path: writeups
+      default: true
+      content:
+        directory: ./
