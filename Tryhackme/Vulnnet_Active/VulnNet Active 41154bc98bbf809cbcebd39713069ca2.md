@@ -78,7 +78,6 @@ session setup failed: NT_STATUS_LOGON_FAILURE
 
 ![                                   Exploit on how to get NTLM v2 hash for Enterprise Security on redis 2.8.2402](image.png)
 
-                                   Exploit on how to get NTLM v2 hash for Enterprise Security on redis 2.8.2402
 
 ### exploit :
 
@@ -1061,13 +1060,9 @@ meterpreter >
 
 ![                                                                                     All Domain Users](image%201.png)
 
-                                                                                     All Domain Users
-
 - We also find `Generic Write` perms on a `GPO`
 
 ![                                                      Generic Write Perms on the GPO SECURITY-POL-VN](image%202.png)
-
-                                                      Generic Write Perms on the GPO SECURITY-POL-VN
 
 - We also check for any kerberoastable accounts using the cipher
 
@@ -1077,8 +1072,6 @@ ENDS WITH '@VULNNET. LOCAL' RETURN n
 ```
 
 ![                                                            Finding Kerberoastable Users](image%203.png)
-
-                                                            Finding Kerberoastable Users
 
 - no kerberoastable account
 
@@ -1361,8 +1354,6 @@ meterpreter > upload SharpGPOAbuse.exe
 [Abusing Active Directory ACLs/ACEs - HackTricks](https://hacktricks.wiki/en/windows-hardening/active-directory-methodology/acl-persistence-abuse/index.html?highlight=sharpgpo#sharpgpoabuse---abuse-gpo)
 
 ![                                                              Hacktricks showing how to abuse a GPO you own](image%205.png)
-
-                                                              Hacktricks showing how to abuse a GPO you own
 
 - We exploit!
 
