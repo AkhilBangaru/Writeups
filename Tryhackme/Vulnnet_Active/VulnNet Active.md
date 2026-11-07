@@ -1277,9 +1277,7 @@ Protocol: [MS-PAR]: Print System Asynchronous Remote Protocol
 
 - We could abuse the `Generic Write` perms on the gpo `SECURITY-POL-VN`
 
-![Bloodhound Procedure for abusing Generic all Perms                                         on a GPO](image%204.png)
-
-Bloodhound Procedure for abusing Generic all Perms                                         on a GPO
+![Bloodhound Procedure for abusing Generic all Perms on a GPO](image%204.png)
 
 - We try the linux way to abuse this given in bloodhound itself
 - First we need to add domain to /etc/hosts
